@@ -2,11 +2,14 @@ import styled from 'styled-components';
 import PurpleFriday from '../../images/purplefriday.jpg';
 
 export const Purple = styled.main`
-  height: 110vh;
+  height: 100vh;
   background-image: url(${PurpleFriday});
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: center;
 
   @media (max-width: 1024px) {
     height: 50vh;
@@ -14,11 +17,10 @@ export const Purple = styled.main`
   }
 `;
 
-export const Login = styled.a`
+export const Login = styled.p`
   font-weight: 120;
-  font-size: 25px;
+  font-size: 50px;
   color: white;
-  width: 13%;
   margin: 1rem;
 
   @media (max-width: 1024px) {
@@ -30,7 +32,8 @@ export const Link = styled.a`
   color: white;
   text-decoration: none;
   padding: 0.5rem;
-  font-size: 25px;
+  font-size: 50px;
+  padding-top: 35px;
 
   @media (max-width: 1024px) {
     margin: 0.7rem 3.4375rem;

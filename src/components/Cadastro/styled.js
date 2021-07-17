@@ -20,10 +20,9 @@ export const Callout = styled.p`
   text-transform: uppercase;
   color: #5e1c6d;
   font-weight: 900;
-  font-size: 2.5rem;
-  width: max-content;  
-  padding: 4px 2.5em;
-  margin: 130px 1em 1px 4rem;
+  font-size: 3.5rem;
+  width: max-content; 
+  margin-left: 5%;
 
   @media (max-width: 1024px) {
     font-size: 1.25rem;
